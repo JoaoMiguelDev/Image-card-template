@@ -1,0 +1,68 @@
+/* Add basic CSS styling to the document */
+
+html {
+    background-color: #ccc;
+    font-size: 15px;
+    margin: 0; /* Removes the browser's default margin */
+    font-family: "Poppins";
+}
+
+/* A white canva */
+section {
+    margin: 0 auto;
+    background-color: white;
+    width: 300mm;
+    height: 300mm;
+    position: relative;
+    align-content: center;
+}
+
+/* Sets the card skeleton and adds shadow to it */
+
+.card {
+    width: 90mm;
+    height: 110mm;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 30%); /* Adds depth to the card */
+}
+
+/* Configure the image size and how it fits the content box */
+
+.card img {
+    width: 90mm;
+    height: 45mm;
+    object-fit: cover; /* Fills the element box without distorting the image */
+}
+
+/* The next rulesets change the card's font size and set proper margin  */
+
+.card h1 {
+    margin-left: 4mm;
+    font-weight: 400;
+}
+
+.card p {
+    margin-left: 4mm;
+    margin-right: 4mm;
+    margin-bottom: 4mm;
+    font-size: 15px;
+    
+}
+
+/* Action button styling */
+
+button {
+    background-color: #0067b8;
+    border: 1px #0067b8;
+    color: white;
+    width: 30mm;
+    height: 10mm;
+    margin-left: 4mm;
+    margin-top: 2mm;
+    border-radius: 1mm;
+    cursor: pointer; /* Changes the cursor to indicate that the element is clickable */
+}
+
+button:hover {
+    background-color: #005a9e;
+}
