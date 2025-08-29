@@ -6,7 +6,7 @@ A simple and minimalist card template, built with the purpose of practicing **HT
 
 👀 **Preview**
 
-Check out the live version of this card [here](https://JoaoMiguelDev.github.io/Image-card-template/).
+Check out the live version of this card [here](https://joaomigueldev.github.io/Image-card-template/).
 
 ---
 
